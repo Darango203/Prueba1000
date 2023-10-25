@@ -1,0 +1,196 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+            /*Estilos de la Sidebar*/
+            :root{
+                --width:0px ;
+                --padding: 10px;
+                --bgcolor: #05204A;
+                --hovercolor: #05204A;
+                --width-collapsed: 70px;
+            }
+
+
+            #sideBar{
+                background-color: var(--bgcolor);
+                color: white;
+                position: fixed;
+                width: 220px;
+                height: 100%;
+                left: 0;
+                top: 0;
+                border-radius: 0px 10px 10px 0px;
+                z-index: 10000;
+            }
+
+            #sideBar a{
+                color: white;
+                text-decoration: none;
+            }
+
+            #loguito{
+                width: 145px;
+                margin: 25px;
+            }
+
+            #photoUser{
+                margin: 15px 15px 15px 60px;
+                cursor: pointer;
+            }
+
+            .item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover,.item6:hover{
+                background-color: #59CBE8;
+                border-radius: 10px;
+            }
+
+            .item3__icon{
+                font-size: 35px;
+            }
+
+            .item1,.item2,.item3,.item4,.item5,.item6{
+                transition: background-color;
+                padding: 2px;
+            }
+            .itemPrincipales{
+                margin: 20px 20px 70px 20px;
+            }
+            .itemSecundarios{
+                margin: 20px;
+            }
+            .item1__icon,
+            .item2__icon,
+            .item3__icon,
+            .item4__icon,
+            .item5__icon,
+            .item6_icon {
+              width: 30px; /* Ajusta el tamaño según tus necesidades */
+              height: 30px; /* Ajusta la altura según tus necesidades */
+            }
+            .item1__title,
+            .item2__title,
+            .item3__title,
+            .item4__title,
+            .item5__title,
+            .item6_title {
+              font-size:15px ;
+            }
+            .item1__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item1__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;
+            }
+            .item2__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item2__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item3__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item3__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item4__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item4__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item5__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item5__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item6_icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item6_title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            
+            /*---------------------------------- estilos pagina----------------------*/
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .formulario__btn{
+                width: 100px;
+                bottom: 15px;
+                padding: 8px;
+                margin: 5px;
+                border: 2px solid #05204A;
+                border-radius: 10px;
+                background-color: #05204A;
+                color: #ffffff;
+                cursor: pointer;
+                transition: .1s ease all;
+            }
+
+            .formulario__btn:hover{
+                box-shadow: 3px 0 px 30px rgba(163, 163, 163, 2);
+            }
+            
+            .titulo{
+                text-align: center;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+            .formulario__grupo{
+                margin-left: 80%;
+                margin-top: 85px;
+            }
+            .container mt-4{
+                margin-left: 30px;
+            }
+            
+            #tabla{
+                margin: 22%;
+            }
+            
+            .contenedor_titulo{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #F5F9FF; 
+                color: #0; 
+                padding: 10px 0; 
+                z-index: 1000; 
+            }
+            .formulario__grupo-btn-resgistrar{
+                margin-left: 1290px;
+            }
+            
+          
+

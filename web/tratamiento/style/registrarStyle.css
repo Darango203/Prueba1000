@@ -1,0 +1,346 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+            /*Estilos de la Sidebar*/
+            :root{
+                --width:0px ;
+                --padding: 10px;
+                --bgcolor: #05204A;
+                --hovercolor: #05204A;
+                --width-collapsed: 70px;
+            }
+
+
+            #sideBar{
+                background-color: var(--bgcolor);
+                color: white;
+                position: fixed;
+                width: 220px;
+                height: 100%;
+                left: 0;
+                top: 0;
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            #sideBar a{
+                color: white;
+                text-decoration: none;
+            }
+
+            #loguito{
+                width: 145px;
+                margin: 25px;
+            }
+
+            #photoUser{
+                margin: 15px 15px 15px 60px;
+                cursor: pointer;
+            }
+
+            .item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover,.item6:hover{
+                background-color: #59CBE8;
+                border-radius: 10px;
+            }
+
+            .item3__icon{
+                font-size: 35px;
+            }
+
+            .item1,.item2,.item3,.item4,.item5,.item6{
+                transition: background-color;
+                padding: 2px;
+            }
+            .itemPrincipales{
+                margin: 20px 20px 70px 20px;
+            }
+            .itemSecundarios{
+                margin: 20px;
+            }
+            .item1__icon,
+            .item2__icon,
+            .item3__icon,
+            .item4__icon,
+            .item5__icon,
+            .item6_icon {
+              width: 30px; /* Ajusta el tamaño según tus necesidades */
+              height: 30px; /* Ajusta la altura según tus necesidades */
+            }
+            .item1__title,
+            .item2__title,
+            .item3__title,
+            .item4__title,
+            .item5__title,
+            .item6_title {
+              font-size:15px ;
+            }
+            .item1__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item1__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;
+            }
+            .item2__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item2__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item3__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item3__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item4__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item4__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item5__icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item5__title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            .item6_icon{
+                width: 20%; 
+                padding: 10px;
+                float: left; 
+                box-sizing: border-box;
+            }
+            .item6_title{
+                margin: 5px;
+                padding: 10px 10px 10px 50px;  
+            }
+            
+            /*-----------------------------------------------ESTILOS PARA EL FORMULARIO-----------------------------------------------------*/
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            body{
+                background-color: #F6FAFF;
+            }
+            /* Estilo para ocultar las flechas en campos de tipo number */
+            input[type="number"]::-webkit-inner-spin-button,
+            input[type="number"]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                appearance: none;
+                margin: 0;
+            }
+            #btnRegistrar{
+                text-decoration: none;
+                color: #fffffff;
+            }
+
+            .formulario__estado{
+                display:inline-block;
+                height: 35px;
+                width: 100%;
+                margin-right: 45px;
+                position:static;
+                background-color: #fff;
+                border: 3px solid #050505 ;
+                border-radius: 10px;
+            }
+            
+            .formulario__estado:focus{
+                border: 3px solid #0075ff;
+                outline: none;
+                box-shadow: 3px 0px 30px rgba(163, 136, 163, 0.4);
+            }
+
+            #grupo_valorTratamiento, #grupo_estadoTratamiento{
+                display: inline-block;
+                width: 37%;
+            }
+            
+            #grupo_valorTratamiento{
+                margin-left: 22px;
+            }
+
+            .formulario__textarea{
+                background-color: #fff;
+                border: 3px solid #050505 ;
+                border-radius: 10px;
+                width: 438px; 
+                height: 100px;
+                resize: none;
+                line-height: 1.2;
+                padding: 10px;
+            }
+            
+            .formulario__textarea:focus{
+                border: 3px solid #0075ff;
+                outline: none;
+                box-shadow: 3px 0px 30px rgba(163, 136, 163, 0.4);
+            }
+            
+            .contenidoFormTrata{
+                width: 650px;
+                margin: 120px 5px 80px 550px;
+                background-color: #e0e0e0;
+                border-radius: 15px 15px 15px 15px;
+                display: flex;
+                flex-direction: column; 
+                align-items: stretch;
+            }
+
+            .campo{
+                display:block;
+                font-weight: 600;
+                padding: 10px;
+                cursor: pointer;
+            }
+            
+            .formulario{
+                margin: 9px 5px;
+                padding: 50px ;
+            }
+
+            #grupo_nombreTratamiento, #grupo_descripcionTratamiento{
+                display: block;
+            }
+
+            #nombreTratamiento{
+                width: 430px;
+            }
+
+
+
+            .formulario__grupo-input{
+                position: relative;
+            }
+
+            .formulario__input{
+                width: 78%;
+                background-color: #fff;
+                border: 3px solid #050505 ;
+                border-radius: 10px;
+                height: 35px;
+                line-height: 35px; /*alinear el texto en la caja*/
+                padding: 0px 40px 0px 10px;
+                transition: .3s ease all;
+            }
+
+            .formulario__input:focus{
+                border: 3px solid #0075ff;
+                outline: none;
+                box-shadow: 3px 0px 30px rgba(163, 136, 163, 0.4);
+            }
+            
+            
+
+            .formulario__btn{
+                width: 100px;
+                bottom: 15px;
+                padding: 8px;
+                margin: 5px;
+                border: 2px solid #05204A;
+                border-radius: 10px;
+                background-color: #05204A;
+                color: #ffffff;
+                cursor: pointer;
+                transition: .1s ease all;
+            }
+
+            .formulario__btn:hover{
+                box-shadow: 3px 0 px 30px rgba(163, 163, 163, 2);
+            }
+
+            .formulario__input-error{
+                font-size: 12px;
+                margin-bottom: 0;
+                display: none;
+
+            }
+
+            .formulario__input-error-activo{
+                display: block;
+            }
+
+            .formulario__validacion-estado{
+                position: absolute;
+                padding: 13px 0px 0px 5px;
+                z-index: 100;
+                opacity: 0;
+            }
+
+            .formulario__mensaje,
+            .formulario__grupo-btn-enviar{
+                grid-column: span 3;
+            }
+
+            .formulario__mensaje{
+                height: 45px;
+                line-height: 45px;
+                background-color: aliceblue;
+                padding: 5 15px;
+                margin-bottom: 15px;
+                border-radius: 15px;
+                display: none;
+
+            }
+
+            .formulario__mensaje p{
+                padding: 0px 0px 0px 15px ;
+
+            }
+
+            .formulario__mensaje-activo{
+                display: block;
+
+            }
+
+
+            .formulario__grupo-btn-enviar{
+                display: flex;
+                flex-direction:row;
+                align-content:flex-end;
+            }
+
+            /*Estilo para validacion*/
+            .formulario__grupo-correcto .formulario__validacion-estado{
+                color: #1ed12d;
+                opacity: 1;
+            }
+
+            .formulario__grupo-incorrecto .formulario__input{
+                color:#bb2929;
+                border:3px solid #bb2929;
+            }
+
+            .formulario__grupo-incorrecto .formulario__validacion-estado{
+                color:#bb2929;
+                opacity: 1;
+            }
+            
+           
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/web/tratamiento/consultarTratamiento.xhtml</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/web/index.xhtml</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/src/java/facades/TratamientoFacade.java</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/src/java/entidades/Tratamiento.java</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/src/java/controlador/TratamientoControlador.java</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/src/java/facades/AbstractFacade.java</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/web/tratamiento/actualizarTratamiento.xhtml</file>
+            <file>file:/C:/Users/ACER/Documents/NetBeansProjects/CRUDTrata/web/tratamiento/registrarTratamiento.xhtml</file>
+        </group>
+    </open-files>
+</project-private>
